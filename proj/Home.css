@@ -1,0 +1,140 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;600;700&family=Jost:wght@100;300&family=Lora:ital@0;1&family=Mohave:wght@600&family=Montserrat:wght@600&family=Pacifico&family=Roboto:ital,wght@1,100&family=Ubuntu&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;600;700&family=Jost:wght@100;300&family=Mohave:wght@600&family=Montserrat:wght@600&family=Pacifico&family=Roboto:ital,wght@1,100&family=Ubuntu&display=swap');
+nav{
+background-color: rgb(247, 248, 248);
+  height: 123px;
+  border: 2px dotted black;
+  position: relative;
+}
+nav ul{
+  float: right;
+  list-style-type: none;
+}
+
+nav ul li{
+  display: inline-block;
+  line-height: 5px;
+  margin: 43px;
+}
+nav ul li a{
+  text-decoration: none;
+  color: rgba(17, 13, 13, 0.87);
+  font-size: 30px;
+  text-transform: capitalize;
+  font-weight: 700;
+  padding: 8px 20px;
+  font-family: monospace;
+}
+nav ul li a:hover{
+  color: rgb(221, 93, 33);
+  background-color: rgb(247, 237, 241);
+}
+.background{
+  background-image: url(img1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;   
+ }
+ .content{
+  position: absolute;
+  top: 60%;
+  left:50%;
+  transform: translate(-50%,-50%);
+ }
+ main .content h1 .heading{
+  color: blanchedalmond;
+ }
+ .btn{
+  color: black;
+  background-color: burlywood;
+  text-decoration: none;
+  border-radius: 30px;
+  margin: 45px;
+  font-size: x-large;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+ .showcase{
+  background-color: beige;
+  padding: 2rem 0;
+ }
+ .row{
+  height: 350px;
+  background-color: white;
+  box-shadow: 5px 5px 20px 0px;
+ }
+ .row1{
+  margin: 10rem;
+ }
+ .row2{
+  margin: 10rem;
+ }
+ .row1 .img-box, .row2 .text-box{
+  float: left;
+  width: 49%;
+ }
+ .row2 .img-box, .row1 .text-box{
+  float: right;
+  width: 49%;
+ }
+ .row .img-box{
+
+  height: 100%;
+ }
+ .row .text-box{
+  height: 100%;
+ }
+ .row .img-box img{
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 200px;
+ }
+ .lg-heading{
+  text-align: center;
+  text-transform: capitalize;
+  font-family: 'Jost', sans-serif;
+  font-size: xx-large;
+
+ }
+ .lg-para{
+  font-size: x-large;
+  margin: 10px;
+  text-align: left;
+  font-family: 'Dancing Script', cursive;
+ }
+ .btn{
+  background-color: rgb(213, 226, 226);
+  font-family: monospace;
+  border: 2px solid black;
+ }
+ .box-wrapper{
+  margin: 9rem;
+  border: 2px solid rgb(245, 237, 237);
+  display: flex;
+  height: 90px;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.box{
+  border: 1px solid gray;
+  height: 200px;
+  width: 500px;
+}
+.box-1{
+  background-color: rgb(50, 56, 56);
+  order: 0 ;
+  color: white;
+}
+.box-2{
+  background-color: rgb(233, 25, 42);
+  order: 0;
+  color: white;
+}
+.box-3{
+  background-color: rgb(50, 56, 56);
+  order: 0;
+  color: white;
+}
